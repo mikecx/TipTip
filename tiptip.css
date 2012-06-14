@@ -26,8 +26,8 @@
 
 #tiptip_content {
 	font-size: 11px;
-	color: #fff;
-	padding: 0px 10px;
+	color: #363636;
+	padding: 5px;
 	border: 1px solid rgba(255,255,255,0.25);
 	background-color: rgb(255,250,192);
 	border-radius: 3px;
@@ -36,6 +36,38 @@
 	box-shadow: 0 0 3px #555;
 	-webkit-box-shadow: 0 0 3px #555;
 	-moz-box-shadow: 0 0 3px #555;
+}
+
+#tiptip_content .header {
+    margin: 10px 0;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2b71a5;
+}
+
+#tiptip_content .body {
+    margin: 10px 0;
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #363636;
+}
+
+#tiptip_content .body .bold {
+    font-weight: bold;
+}
+
+#tiptip_content .icons-close-tooltip {
+    height: 10px;
+    width: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+#tiptip_content .close-tooltip {
+    height: 10px;
+    margin-top: 20px;
 }
 
 #tiptip_arrow, #tiptip_arrow_inner {
@@ -99,7 +131,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	#tiptip_content {
 		padding: 4px 8px 5px 8px;
-		background-color: rgba(255,250,192,0.88);
+		background-color: rgb(255,250,192);
 	}
 	#tiptip_holder.tip_bottom #tiptip_arrow_inner { 
 		border-bottom-color: rgba(255,250,192,0.88);
